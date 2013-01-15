@@ -10,3 +10,5 @@ This repository contains the additional features added to Moses during the Galat
 - features: the XML-RPC adds also the translation features (individual scores for all the computed features) to the translation result map.
 
 The GALATEAS project offers digital content providers an innovative approach to understanding users' behaviour by analysing language-based information from transaction logs and facilitates the development of improved navigation and search technologies for multilingual content access.
+
+More details: http://www.galateas.eu/
