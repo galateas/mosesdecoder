@@ -184,6 +184,21 @@ Parameter::Parameter()
   AddParam("sort-word-alignment", "Sort word alignments for more consistent display. 0=no sort (default), 1=target order");
 
   AddParam("report-segmentation", "t", "report phrase segmentation in the output");
+  AddParam("galateas-server-id", "Unique server id in the cluster (mandatory).");
+  AddParam("galateas-server-name", "Some user friendly name used for UIs (mandatory).");
+  AddParam("galateas-server-description", "Some user friendly description of the server (training corpus used, ...) (mandatory).");
+  AddParam("galateas-src-language", "The source language code (mandatory).");
+  AddParam("galateas-tgt-language", "The target language code (mandatory).");
+  
+  AddParam("galateas-lex", "Giza lexical dictionary path. Used for the OOV feature and the reranking (optional).");
+  AddParam("galateas-rev-lex", "Giza reverse lexical dictionary path. Used for the reranking (optional).");
+  AddParam("galateas-lambdas", "Tuning lambdas file path. Used for the reranking (optional).");
+  AddParam("galateas-upload-dir", "An upload directory on the server (optional).");
+  AddParam("galateas-upload-dir-2", "An upload directory on the server (optional).");
+  AddParam("galateas-upload-dir-3", "An upload directory on the server (optional).");
+  AddParam("galateas-download-file", "A downloadable file from the server (optional).");
+  AddParam("galateas-download-file-2", "A downloadable file from the server (optional).");
+  AddParam("galateas-download-file-3", "A downloadable file rom the server (optional).");
 }
 
 Parameter::~Parameter()
