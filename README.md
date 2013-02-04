@@ -1,4 +1,4 @@
-mosesdecoder
+GALATEAS - mosesdecoder
 ============
 
 Moses, the machine translation system
