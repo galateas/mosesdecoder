@@ -1,3 +1,20 @@
+/*******************************************************************
+GALATEAS - MOSES customised decoder
+Copyright (C) 2013 Xerox
+
+Additional code added to the original MOSES server for
+- discovery management: the XML-RPC server can provide information on its
+parameters and state, like list of languages supported, moses.ini parameters, etc.
+Useful for building large scale Moses clusters.
+- upload/download: a user can upload files to a given directory on the Moses server
+(such as additional training data for example) or download files from the server.
+- nbest retrieval: the XML-RPC server is now able to retrieve all the
+nbest translation hypotheses for a given translation (use parameter "nBestSize").
+- translation parameters: the XML-RPC adds also the translation parameters
+(individual scores for all the computed features) to the translation result map
+*******************************************************************/
+
+
 #include "util/check.hh"
 #include <stdexcept>
 #include <iostream>
