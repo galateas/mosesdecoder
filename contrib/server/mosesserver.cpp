@@ -1,5 +1,5 @@
 /*******************************************************************
-GALATEAS - MOSES customised decoder
+GALATEAS - MOSES customised server
 Copyright (C) 2013 Xerox
 
 Additional code added to the original MOSES server for
