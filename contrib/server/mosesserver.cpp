@@ -2,16 +2,19 @@
 GALATEAS - MOSES customised server
 Copyright (C) 2013 Xerox
 
-Additional code added to the original MOSES server for
-- discovery management: the XML-RPC server can provide information on its
-parameters and state, like list of languages supported, moses.ini parameters, etc.
-Useful for building large scale Moses clusters.
-- upload/download: a user can upload files to a given directory on the Moses server
-(such as additional training data for example) or download files from the server.
-- nbest retrieval: the XML-RPC server is now able to retrieve all the
-nbest translation hypotheses for a given translation (use parameter "nBestSize").
-- translation parameters: the XML-RPC adds also the translation parameters
-(individual scores for all the computed features) to the translation result map
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 *******************************************************************/
 
 
