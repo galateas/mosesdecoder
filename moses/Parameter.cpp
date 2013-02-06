@@ -20,7 +20,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 ***********************************************************************/
 
 /**********************************************************************
- * GALATEAS - MOSES customised decoder
+GALATEAS - MOSES customised decoder
 Copyright (C) 2013 Xerox
 ***********************************************************************/
 
