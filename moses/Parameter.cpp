@@ -18,6 +18,22 @@ You should have received a copy of the GNU Lesser General Public
 License along with this library; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 ***********************************************************************/
+/***********************************************************************
+GALATEAS - MOSES customised decoder
+Copyright (C) 2013 Xerox
+
+Additional parameters added to the original MOSES decoder for
+- discovery management: the XML-RPC server can provide information on its 
+parameters and state, like list of languages supported, moses.ini parameters, etc. 
+Useful for building large scale Moses clusters.
+- upload/download: a user can upload files to a given directory on the Moses server 
+(such as additional training data for example) or download files from the server.
+- nbest retrieval: the XML-RPC server is now able to retrieve all the 
+nbest translation hypotheses for a given translation (use parameter "nBestSize").
+- translation parameters: the XML-RPC adds also the translation parameters 
+(individual scores for all the computed features) to the translation result map
+***********************************************************************/
+
 
 #include <ctime>
 #include <iostream>
